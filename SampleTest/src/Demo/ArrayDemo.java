@@ -7,7 +7,7 @@ public class ArrayDemo {
 
 		int[] myNum = { 10, 20, 30, 40 };
 
-		cars[0] = "iten";
+		cars[0] = "i10";
 		System.out.println(cars[1]);
 
 		System.out.println(cars.length);
@@ -34,7 +34,10 @@ public class ArrayDemo {
 		 * // method is easier t // o write, it does not require a counter (using the
 		 * length property), and it is // more readable.
 		 */
+String[] laptops = {"dell","hp","thinkpad","apple"};
 
+laptops[0]="Acer";
+System.out.println(laptops[0]);
 	}
 
 }

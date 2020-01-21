@@ -23,13 +23,15 @@ public class AlertsAndFrames extends CaptureScreenshot {
 		Thread.sleep(3000);
 
 		// accepting javascript alert
+
 		Alert alert = driver.switchTo().alert();
+
 		alert.accept();
 		
+		
+
 		CaptureScreenshot obj = new CaptureScreenshot();
-		
-				
-		
+
 		Thread.sleep(5000);
 
 		// clicking on try it button
@@ -44,7 +46,7 @@ public class AlertsAndFrames extends CaptureScreenshot {
 		// print test of javascript alert
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();
-		//accept, dismiss, getText
+		// accept, dismiss, getText
 
 		driver.quit();
 
@@ -53,12 +55,13 @@ public class AlertsAndFrames extends CaptureScreenshot {
 }
 
 /*
- * Alert is a small message box which displays on-screen notification to give the user some kind of information or ask
- *  for permission to perform certain kind of operation. It may be also used for warning purpose.
-
-
+ * Alert is a small message box which displays on-screen notification to give
+ * the user some kind of information or ask for permission to perform certain
+ * kind of operation. It may be also used for warning purpose.
  * 
-
+ * 
+ * 
+ * 
  * WebDriver offers the users with a very efficient way to handle these pop ups
  * using Alert interface.
  * 
@@ -67,8 +70,8 @@ public class AlertsAndFrames extends CaptureScreenshot {
  * 
  * 1) void dismiss() – The dismiss() method clicks on the “Cancel” button as
  * soon as the pop up window appears. 2) void accept() – The accept() method
- * clicks on the “Ok” button as soon as the pop up window appears. 
- * 3) String getText() – The getText() method returns the text displayed on the alert box.
+ * clicks on the “Ok” button as soon as the pop up window appears. 3) String
+ * getText() – The getText() method returns the text displayed on the alert box.
  * 4) void sendKeys(String stringToSend) – The sendKeys() method enters the
  * specified string pattern into the alert box.
  */

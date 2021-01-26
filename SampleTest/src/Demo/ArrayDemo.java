@@ -3,9 +3,16 @@ package Demo;
 public class ArrayDemo {
 
 	public static void main(String[] args) {
-		String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+		String []cars = { "Volvo", "BMW", "Ford", "Mazda" };
+		
+		String [] names = {"harsha","srilekha","Sidhu"};
+		
+		
+		names[2]="cidhu";
+		System.out.println(names[2]);
+		String car = "Mercedes";
 
-		int[] myNum = { 10, 20, 30, 40 };
+		int[] myNum = { 10, 20, 30, 40,};
 
 		cars[0] = "i10";
 		System.out.println(cars[1]);
@@ -23,7 +30,13 @@ public class ArrayDemo {
 			System.out.println(i);
 		}
 
-		int[][] myNumbers = { { 1, 2, 3, 4 }, { 5, 6, 7 } };
+		int[][] myNumbers = { { 1, 2, 3, 4 }, { 5, 6, 7 },{10,20,30} };
+		
+		float[] example = {2.3f,4.5f, 6.7f};
+		System.out.println("The floats are:"+example);
+		
+		double[] doubleExample = {2.33,4.56,6.78};
+		System.out.println("The doubles are:"+doubleExample);
 
 		int x = myNumbers[1][0];
 		System.out.println(x);
@@ -37,7 +50,7 @@ public class ArrayDemo {
 String[] laptops = {"dell","hp","thinkpad","apple"};
 
 laptops[0]="Acer";
-System.out.println(laptops[0]);
+
 	}
 
 }

@@ -1,0 +1,404 @@
+{
+	"aeroDetails": [
+		{
+			"aircraftTailNumber": "987-456",
+			"incorrectTailNumber": " $#567 as",
+			"aircraftMake": "WACO",
+			"aircraftModel": "ASO",
+			"aircraftSerialno": "53682618",
+			"incorrectSerialNo": "fje #$%231",
+			"aircraftYear": "2011",
+			"devicemanufacturer": "GARMIN",
+			"devicemodel": "G3000",
+			"devicemodelAC": "GTN 600 Series",
+			"successMsg": "Aircraft TailNumber is created",
+			"duplicateMsg": "TailNumber already exists",
+			"incorrectTailNoMsg": "Tail Number must be alphanumeric, also allows \"-\"",
+			"incorrectSerialMsg": "Serial Number must be alphanumeric, also allows \"-\"",
+			"dupSytemID": "123327732",
+			"buydbHeader": "Buy databases",
+			"buydbText": "Find the right avionics for your aircraft",
+			"noAircrafttext": "To start purchasing databases please add your aircraft hangar and avionics to your account.",
+			"selectAircraft": "Select your aircraft",
+			"devicesHeader": "Avionics associated with this aircraft",
+			"noDevicestext": "No avionics. Please add avionics to this aircraft.",
+			"contactUsText": "Based on the filters selected, no bundles are currently available online. Please Contact Us to learn about other bundle options"
+		}
+	],
+	
+	"tier1a": {
+		"aircraftMake": "ADVANCED AVIATION",
+		"aircraftModel": "COBRA",
+		"aircraftSerialno": "53682618",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-G3000,AVIDYNE-EX Series,EUROAVIONICS-EuroNav 7,",
+		"aircraftYear": "2011",
+		"devicemodel": "G1000",
+		"devicemodelG3K": "G3000",
+		"devicemodelG1K": "G1000",
+		"devicemodelAVDEX5": "EX Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"tier1b": {
+		"aircraftMake": "AERO GARE",
+		"aircraftModel": "SEA HAWKER",
+		"aircraftSerialno": "53682618",
+		"deviceMakeModel": "GARMIN-G1000,",
+		"aircraftYear": "2011",
+		"devicemodel": "G1000",
+		"devicemodelG1K": "G1000",
+		"devicemanufacturer": "GARMIN"
+	},
+	"tier2a": {
+		"aircraftMake": "BELL",
+		"aircraftModel": "AB204",
+		"aircraftSerialno": "3457812",
+		"aircraftYear": "2010",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-G3000,GARMIN-G500 TXi,AVIDYNE-EX Series,",
+		"devicemodel": "G1000",
+		"devicemodelG1K": "G1000",
+		"devicemodelG3K": "G3000",
+		"devicemodelG500TXi": "G500 TXi",
+		"devicemodelAVDEX5": "EX Series",
+		"region": "North America",
+		"devicemanufacturer": "GARMIN"
+	},
+	"tier3a": {
+		"aircraftMake": "ALENIA",
+		"aircraftModel": "G222",
+		"aircraftSerialno": "5436378",
+		"aircraftYear": "2009",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-GTN 600 Xi Series,AVIDYNE-EX Series,",
+		"devicemodel": "G1000",
+		"devicemodelG1K": "G1000",
+		"devicemodelG600Xi": "GTN 600 Xi Series",
+		"devicemodelAVDEX5": "EX Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"regions": {
+		"regionNA": "North America",
+		"regionSA": "South America",
+		"regionEU": "Europe",
+		"regionWW": "Worldwide",
+		"regionPCF": "Pacific"
+	},
+	"LOS": {
+		"LSAN": "Annual",
+		"LSOT": "One Time",
+		"LSURD": "Until Renewal Date"
+	},
+	"categories": {
+		"CategoryNav": "NavData",
+		"CategoryObs": "Obstacles",
+		"CategoryAirdc": "Airport Directory",
+		"CategorySft": "SafeTaxi",
+		"CategoryEDS": "Electronic Chart Services",
+		"CategoryTrn": "Terrain",
+		"CategoryBm": "Basemap",
+		"CategoryObp": "Obstacles + Powerline"
+	},
+	"bundlesTier1G1K": {
+		"aircraftMake": "AERIAL ARTS",
+		"aircraftModel": "110SX",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000",
+		"aircraftYear": "2015",
+		"devicemodel": "G1000",
+		"devicemodelG1K": "G1000",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1G2k": {
+		"aircraftMake": "AERO VODOCHODY",
+		"aircraftModel": "L139",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G2000",
+		"aircraftYear": "2015",
+		"devicemodel": "G2000",
+		"devicemodel2K": "G2000",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1G1KAIFD500": {
+		"aircraftMake": "AGUSTA",
+		"aircraftModel": "A109",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,AVIDYNE-IFD 500 Series",
+		"aircraftYear": "2015",
+		"devicemodel": "G1000",
+		"devicemodelG1K": "G1000",
+		"devicemodelAIFD5S": "IFD 500 Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier3G3k": {
+		"aircraftMake": "ALENIA",
+		"aircraftModel": "C27, SPARTAN",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G3000",
+		"aircraftYear": "2015",
+		"devicemodel": "G3000",
+		"devicemodel3K": "G3000",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1G1KG950": {
+		"aircraftMake": "ACES HIGH",
+		"aircraftModel": "CUBY",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-G950",
+		"aircraftYear": "2015",
+		"devicemodelG1K": "G1000",
+		"devicemodelG950": "G950",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1G1KH": {
+		"aircraftMake": "AER PEGASO",
+		"aircraftModel": "M100S",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-G1000H",
+		"aircraftYear": "2015",
+		"devicemodelG1K": "G1000",
+		"devicemodelG1KH": "G1000H",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GNxi": {
+		"aircraftMake": "AERMACCHI",
+		"aircraftModel": "F260",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000 NXi",
+		"aircraftYear": "2015",
+		"devicemodelG1KN": "G1000 NXi",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GNxiG3K": {
+		"aircraftMake": "AERONCA",
+		"aircraftModel": "LA",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000 NXi,GARMIN-G3000",
+		"aircraftYear": "2015",
+		"devicemodelG1KN": "G1000 NXi",
+		"devicemodelG3K": "G3000",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GTNseries": {
+		"aircraftMake": "ACRO",
+		"aircraftModel": "ADVANCED",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-GTN 600 Series,GARMIN-GTN 700 Series,GARMIN-G500",
+		"aircraftYear": "2011",
+		"devicemodel": "G1000",
+		"devicemodelG1K": "G1000",
+		"devicemodelGTN6S": "GTN 600 Series",
+		"devicemodelGTN7S": "GTN 700 Series",
+		"devicemodelG5": "G500",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GTN7S": {
+		"aircraftMake": "AVID",
+		"aircraftModel": "AVID AEROBAT",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G500,GARMIN-GTN 700 Series,GARMIN-GTN 700 Series,GARMIN-G600,",
+		"aircraftYear": "2011",
+		"devicemodel": "G500",
+		"devicemodelG5": "G500",
+		"devicemodelGTN7S": "GTN 700 Series",
+		"devicemodelGTN6S": "GTN 700 Series",
+		"devicemodelG6": "G600",
+		"devicemanufacturer": "GARMIN",
+		"CoverageUSA": "Full USA",
+		"CoverageAmericas": "Americas",
+		"CoverageCAN": "Canada/Alaska",
+		"CoverageEurope": "Europe-VFR",
+		"CoverageEuropeIFR":"Europe-IFR",
+		"CoverageHeli": "Americas-Helicopter",
+		"CoverageAMEIFR": "Americas-IFR",
+		"CoverageEast": "East/Central USA-IFR",
+		"CoverageInter": "International (Pick one)-IFR",
+		"CoverageAPAC": "APAC-IFR",
+		"CoverageNAIFR": "North America IFR"
+		
+},	"bundlesTier1TXISeries": {
+		"aircraftMake": "AVIONS ROBIN",
+		"aircraftModel": "R2160",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-GTN 600 Series,GARMIN-G600 TXi,GARMIN-G700 TXi",
+		"aircraftYear": "2015",
+		"devicemodel": "G1000",
+		"devicemodelG1K": "G1000",
+		"devicemodelGTN6S": "GTN 600 Series",
+		"devicemodelGTXi6": "G600 TXi",
+		"devicemodelGTXi7": "G700 TXi",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1XISeries": {
+		"aircraftMake": "BEAVER",
+		"aircraftModel": "BEAVER RX550",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-G600 TXi,GARMIN-GTN 600 Series,GARMIN-G700 xi",
+		"aircraftYear": "2015",
+		"devicemodelG1K": "G1000",
+		"devicemodelGTXi6": "G600 TXi",
+		"devicemodelGTN6S": "GTN 600 Series",
+		"devicemodelGXi7": "G700 xi",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GTN6SGTN6S": {
+		"aircraftMake": "BOLKOW",
+		"aircraftModel": "BO105",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GTN 600 Series,GARMIN-GTN 600 Series",
+		"aircraftYear": "2011",
+		"devicemodelGTN6S": "GTN 600 Series",
+		"devicemodelGTN7S": "GTN 600 Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GTN6S": {
+		"aircraftMake": "ASAP",
+		"aircraftModel": "BEAVER RX550",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,GARMIN-GTN 600 Series",
+		"aircraftYear": "2011",
+		"devicemodelG1K": "G1000",
+		"devicemodelGTN6S": "GTN 600 Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier3GPS175GTN6S": {
+		"aircraftMake": "AIRBUS",
+		"aircraftModel": "A300",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GTN 600 Series,GARMIN-GPS 175,GARMIN-GTN 600 Series",
+		"aircraftYear": "2011",
+		"devicemodelGPS1": "GPS 175",
+		"devicemodelGTN6S": "GTN 600 Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GPS175GNX375": {
+		"aircraftMake": "CAARP",
+		"aircraftModel": "CAP20",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GPS 175,GARMIN-GNX 375",
+		"aircraftYear": "2015",
+		"devicemodel175": "GPS 175",
+		"devicemodel375": "GNX 375",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GPS175GNX375A": {
+		"aircraftMake": "BRANTLY",
+		"aircraftModel": "B2",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GPS 175,GARMIN-GNX 375",
+		"aircraftYear": "2015",
+		"devicemodel175": "GPS 175",
+		"devicemodel375": "GNX 375",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1GNC355A355": {
+		"aircraftMake": "CALLAIR",
+		"aircraftModel": "A",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GNC 355,GARMIN-GNC 355A,GARMIN-G500",
+		"aircraftYear": "2015",
+		"devicemodel335": "GNC 355",
+		"devicemodel3735A": "GNC 355A",
+		"devicemodelG5": "G500",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1G3K175G7SGI275": {
+		"aircraftMake": "BELL",
+		"aircraftModel": "47B",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GPS 175,GARMIN-GI275,GARMIN-GTN 700 Series,GARMIN-G3000",
+		"aircraftYear": "2015",
+		"devicemodel175": "GPS 175",
+		"devicemodel275": "GI275",
+		"devicemodelGTN7S": "GTN 700 Series",
+		"devicemodelG3K": "G3000",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1G6S7Xi6XiG1k": {
+		"aircraftMake": "BOEING",
+		"aircraftModel": "EC135",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GTN 700 Xi Series,GARMIN-G600 TXi,GARMIN-GTN 600 Series,GARMIN-G1000",
+		"aircraftYear": "2015",
+		"devicemodelGXi7": "GTN 700 Xi Series",
+		"devicemodelGTXi6": "G600 TXi",
+		"devicemodelGTN6S": "GTN 600 Series",
+		"devicemodelG1K": "G1000",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1IFD5EX4": {
+		"aircraftMake": "AIR TRACTOR",
+		"aircraftModel": " AT250",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "AVIDYNE-IFD 400 Series, AVIDYNE-EX Series",
+		"aircraftYear": "2015",
+		"devicemodelAIFD4S": "IFD 400 Series",
+		"devicemodelAVDEX5": "EX Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier1IFD5G1K": {
+		"aircraftMake": "AISA",
+		"aircraftModel": " AVD12",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-G1000,AVIDYNE-,AVIDYNE-IFD 500 Series",
+		"aircraftYear": "2015",
+		"devicemodelG1K": "G1000",
+		"devicemodelAIFD5S": "IFD 500 Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	"bundlesTier25WS4WS": {
+		"aircraftMake": "GRUMMAN",
+		"aircraftModel": "F9F",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "GARMIN-GNS 400 WAAS Series,GARMIN-GNS 500 WAAS Series",
+		"aircraftYear": "2015",
+		"devicemodelG4WS": "GNS 400 WAAS Series",
+		"devicemodelG5WS": "GNS 500 WAAS Series",
+		"devicemanufacturer": "GARMIN"
+	},
+	
+	"tier2Proline21": {
+		"aircraftMake": "ALLIANCE",
+		"aircraftModel": "ARGO",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "COLLINS AEROSPACE-Proline21",
+		"aircraftYear": "2015",
+		"devicemodelP21": "Proline21",
+		"devicemanufacturer": "COLLINS AEROSPACE"
+	},
+	
+		"bundlesTier1IFD5IFD4": {
+		"aircraftMake": "ACES HIGH",
+		"aircraftModel": "CUBY",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "AVIDYNE-IFD 400 Series,AVIDYNE-IFD 500 Series",
+		"aircraftYear": "2015",
+		"devicemodelAIFD4S": "IFD 400 Series",
+		"devicemodelAIFD5S": "IFD 500 Series",
+		"devicemanufacturer": "AVIDYNE"
+	},
+	
+	
+	"tier1Proline21": {
+		"aircraftMake": "AIR TRACTOR",
+		"aircraftModel": "AT250",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "COLLINS AEROSPACE-Proline21",
+		"aircraftYear": "2015",
+		"devicemodelP21": "Proline21",
+		"devicemanufacturer": "COLLINS AEROSPACE"
+	},
+	"tier3Proline21": {
+		"aircraftMake": "AIRBUS",
+		"aircraftModel": "A300",
+		"aircraftSerialno": "5368342318",
+		"deviceMakeModel": "COLLINS AEROSPACE-Proline21",
+		"aircraftYear": "2015",
+		"devicemodelP21": "Proline21",
+		"devicemanufacturer": "COLLINS AEROSPACE"
+	},
+	"configPageDetails": [
+		{
+			"Aircraft": "1234",
+			"Avionics": "Electronic Chart Services.Avidyne.Entegra 2.Avionics",
+			"Coverages": "Electronic Chart Services.Africa.JV MFD IFR.Coverage"
+		}
+	]
+}

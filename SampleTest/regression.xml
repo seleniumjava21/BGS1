@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression" parallel="methods" thread-count="10">
+	<listeners>
+		<listener class-name="utilities.RetryListenerClass"/>
+	</listeners>
+	<test name="regression">
+		<classes>
+		    <class name="regression.JAU"/> 
+			<class name="regression.Autorenewal"/>
+			<class name="regression.JEU"/>
+			<class name="regression.ATGJUS"/>
+			<class name="regression.ASM"/>
+			<class name="regression.BuyDB"/>
+			<class name="regression.RRegistration"/>
+			<class name="regression.PDP"/>
+			<class name="regression.Tripkits"/> 
+			<class name="regression.LMS"/>
+			<class name="regression.PayInvoice"/>
+			<class name="regression.RLogin"/>	
+			<class name="regression.RNonOrdertests"/>
+			<class name="regression.FrictionFlow"/>
+			<class name="regression.Bundles"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
+
+
+
+

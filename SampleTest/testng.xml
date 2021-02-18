@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SeleniumTestng">
-  <test thread-count="5" name="Testng">
-  <classes>
- <class name="Demo.AutoIt" />
- </classes>
- 
-  </test> <!-- Testng -->
-</suite> <!-- SeleniumTestng -->
-
-
-<suite name="default package">
- <test name="testngTest">
- <classes>
- <class name="default package.Annotations" />
- </classes>
- </test>
-</suite>
+<suite name="regression" parallel="methods" thread-count="10">
+	<listeners>
+		<listener class-name="utilities.RetryListenerClass"/>
+	</listeners>
+	<test name="regression">
+		<classes>
+			<class name="regression.Autorenewal"/>
+								
+		</classes>
+	</test>
+</suite> <!-- Suite -->

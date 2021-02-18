@@ -1,0 +1,27 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://schemas.informatica.com/spi/types/2013/12/spi-interface/" xmlns:ns3="http://schemas.active-endpoints.com/appmodules/screenflow/2011/07/avosCommon.xsd">
+     <SOAP:Header/>
+   <SOAP:Body>
+<ns0:MT_ZOTC4055I_CustomerMaterialMaster_OUT xmlns:ns0="http://Aviall.com/OTC/OU/ZOTC4055I_Cus_Mat_Master_SAP_TO_ODS">
+   <RECORDS>
+      <SALES_ORG>1002</SALES_ORG>
+      <DIST_CHAN>00</DIST_CHAN>
+      <CUSTOMER>0010003348</CUSTOMER>
+      <MATERIAL>RTV3145-30Z=02</MATERIAL>
+      <CUST_MATERIAL_NUM>DC3145-30ZGRAY</CUST_MATERIAL_NUM>
+   </RECORDS>
+   <RECORDS>
+      <SALES_ORG>1002</SALES_ORG>
+      <DIST_CHAN>00</DIST_CHAN>
+      <CUSTOMER>0010007766</CUSTOMER>
+      <MATERIAL>CAF4=33</MATERIAL>
+      <CUST_MATERIAL_NUM>CAF4-33</CUST_MATERIAL_NUM>
+   </RECORDS>
+   <RECORDS>
+      <SALES_ORG>1002</SALES_ORG>
+      <DIST_CHAN>00</DIST_CHAN>
+      <CUSTOMER>0010158094</CUSTOMER>
+      <MATERIAL>PS870B2PT=5N</MATERIAL>
+   </RECORDS>
+</ns0:MT_ZOTC4055I_CustomerMaterialMaster_OUT>
+   </SOAP:Body>
+  </SOAP:Envelope>
